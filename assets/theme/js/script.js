@@ -779,24 +779,24 @@
                         $menu.find('ul.navbar-nav li.dropdown').hover(
                             function() {
                                 if (!$(this).hasClass('open')) {
-                                    $(this).find('a')[0].click();
+                                    // $(this).find('a')[0].click();
                                 }
                             },
                             function() {
                                 if ($(this).hasClass('open')) {
-                                    $(this).find('a')[0].click();
+                                    // $(this).find('a')[0].click();
                                 }
                             }
                         );
                         $menu.find('ul.navbar-nav li.dropdown .dropdown-menu .dropdown').hover(
                             function() {
                                 if (!$(this).hasClass('open')) {
-                                    $(this).find('a')[0].click();
+                                    // $(this).find('a')[0].click();
                                 }
                             },
                             function() {
                                 if ($(this).hasClass('open')) {
-                                    $(this).find('a')[0].click();
+                                    // $(this).find('a')[0].click();
                                 }
                             }
                         );
